@@ -13,7 +13,14 @@ The following instructions are necessary before the training and testing procedu
 - The part "settings of GPU" at the beginning of each python file should be adjusted in advance according to the specific device setting of the user.
 - The experiments of different Compression Rates can be performed by adjusting the "encoded_dim" in the programs.
 - The folder named "data" should be established in advance in "MS-CsiNet" and "MS-CRNet" to store the dataset used for training and testing.
-The dataset used in the network training can be downloaded from https://drive.google.com/drive/folders/1_lAMLk_5k1Z8zJQlTr5NRnSD6ACaNRtj?usp=sharing, which is first provided in https://github.com/sydney222/Python_CsiNet). The dataset should be put in the folds "data" in advance. Therefore, the structure of the fold should be:
+The dataset used in the network training can be downloaded from https://drive.google.com/drive/folders/1_lAMLk_5k1Z8zJQlTr5NRnSD6ACaNRtj?usp=sharing, which is first provided in https://github.com/sydney222/Python_CsiNet). The dataset should be put in the folds "data" in advance. Therefore, the structure of "MS-CsiNet" and "MS-CRNet" should be:
 
+```
+10wLabel.mat
+*.py
+result/
+data/
+  *.mat
+```
 
 - The programs and models based on CsiNet are contained in "MS-CsiNet", and  The programs and models based on CsiNet are contained in "MS-CsiNet". Take "MS-CsiNet" the example: ModelSelection4CR.py performs the training of the decoder selection module when the compression rate == 4 and get the classification accuracy; Test_ModelSelection4CR.py can be used to test the selection module to obtain the end-to-end feedback accuracy with the decoder model selection.
