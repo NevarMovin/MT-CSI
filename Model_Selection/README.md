@@ -24,3 +24,4 @@ data/
 ```
 
 - The programs and models based on CsiNet are contained in "MS-CsiNet", and  The programs and models based on CsiNet are contained in "MS-CsiNet". Take "MS-CsiNet" the example: ModelSelection4CR.py performs the training of the decoder selection module when the compression rate == 4 and get the classification accuracy; Test_ModelSelection4CR.py can be used to test the selection module to obtain the end-to-end feedback accuracy with the decoder model selection.
+- The programs for the visualization of the codeword based on CsiNet are provided in "Visualization". The codeword can be saved into .mat format by MT_CsiNet_save_codeword.py. The data distribution of the codeword can be obtained by data_distribution_of_codeword.m. The compression rate and scenario can be adjusted.
