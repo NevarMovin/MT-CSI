@@ -1,6 +1,6 @@
 clear
 clc
-load('codeword_in_CR4.mat');
-sample_CR4_in = codeword_indoor(1,:);
-sample_CR4_in_2d = reshape(sample_CR4_in, 32, 16);
-imagesc(sample_CR4_in_2d)
+load('codeword_out_CR16.mat');
+sample_CR16_out = codeword_outdoor(1:200,:);
+size(sample_CR16_out)
+mesh(sample_CR16_out)
