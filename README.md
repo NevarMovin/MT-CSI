@@ -2,7 +2,9 @@
 Source code of the multi-task training approach for CSI feedback in massive MIMO systems.
 
 # Introduction
-This repository contains the programs of the multi-task training approach proposed in Boyuan Zhang, Haozhen Li, Xin Liang, Xinyu Gu, and Lin Zhang, "Multi-task Training Approach for CSI Feedback in Massive MIMO Systems" (submitted to IEEE Communications Letters).
+This repository contains the programs of the multi-task training approach proposed in Boyuan Zhang, Haozhen Li, Xin Liang, Xinyu Gu, and Lin Zhang, "Multi-task Training Approach for CSI Feedback in Massive MIMO Systems", accepted by IEEE Communications Letters:
+
+[1] B. Zhang, H. Li, X. Liang, X. Gu and L. Zhang, "Multi-task Training Approach for CSI Feedback in Massive MIMO Systems," in IEEE Communications Letters, 2022, doi: 10.1109/LCOMM.2022.3217059.
 
 # Requirements
 - Python 3.5 (or 3.6)
